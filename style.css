@@ -1,14 +1,14 @@
 body {
   text-align: center;
   color: rgb(0, 133, 0);
-  background-color: antiquewhite;
+  background-color: rgb(221, 255, 174);
 }
 
 .banner {
   margin-left: auto;
   margin-right: auto;
   padding: 0.4rem;
-  background-color: #d0efff;
+  background-color: #fdffd0;
 }
 
 #nav-menu {
