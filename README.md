@@ -2,4 +2,4 @@ Keen to expand my web development toolkit, I embarked on a project to explore th
 
 # Asynchronous-JavaScript-API
 
-![Recipe-API-Webpage](/images/recipe-screenhot.png)
+![gif](/recipe-API.gif)

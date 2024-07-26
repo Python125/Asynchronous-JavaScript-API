@@ -22,63 +22,24 @@
   </head>
   <body>
     <div class="banner">
-      <h1 class="me-1">Be the Adventurer You Were Meant to Be</h1>
-      <div class="h5" id="nav-menu">
-        <a id="home" href="#home">Home</a>
-        <a id="about" href="#about">About Us</a>
-        <a id="recipes" href="#recipes">All Recipes</a>
-      </div>
-    </div>
-    <div>
-      <img src="/images/canva-banner.png" class="photo" />
-    </div>
-    <div>
-      <h2>Explore hundreds of recipes that will satisfy your taste buds!</h2>
-      <h3>Search recipes based on:</h3>
+      <h1 class="me-1" id="title">Adventures In Taste</h1>
+      <h3 style="margin-top: -0.5%">Your Ultimate Recipe Finder</h3>
     </div>
 
     <div>
-      <div style="background-color: #FFF67E">
-        <img src="/images/vegan-hot-dogs.jpg" alt="vegan" class="hover-overlay1" />
+      <div style="background-color: white">
+        <img
+          src="/images/vegan-hot-dogs.jpg"
+          alt="vegan"
+          class="hover-overlay1"
+        />
         <a class="diet" href="#">Diet Types</a>
         <img src="/images/onigiri.jpg" alt="japanese" class="hover-overlay1" />
         <a class="cuisines" href="#">Cuisines</a>
         <img src="/images/cookies.jpg" alt="cookies" class="hover-overlay1" />
         <a class="ingredients" href="#">Ingredients</a>
       </div>
-      <div class="container">
-        <img
-          src="/images/breakfast.png"
-          width="9.5%"
-          class="hover-overlay2"
-          id="spacing"
-        />
-        <a href="#" id="breakfast" class="fw-bold">Breakfast</a>
-        <img src="/images/vegan.png" width="9.5%" class="hover-overlay2" id="spacing" />
-        <a href="#" id="vegan" class="fw-bold">Vegan</a>
-        <img
-          src="/images/lunch.jpg"
-          width="9.5%"
-          class="hover-overlay2"
-          id="spacing"
-          sizes="contain"
-        />
-        <a href="#" id="lunch" class="fw-bold">Lunch</a>
-        <img
-          src="/images/foreign.jpg"
-          width="9.5%"
-          class="hover-overlay2"
-          id="spacing"
-        />
-        <a href="#" id="foreign" class="fw-bold">Foreign</a>
-        <img
-          src="/images/dinner.jpg"
-          width="9.5%"
-          class="hover-overlay2"
-          id="spacing"
-        />
-        <a href="#" id="dinner" class="fw-bold">Dinner</a>
-      </div>
+
       <form
         class="text-center mx-auto d-flex justify-content-center mb-3"
         style="padding: 1%; margin-top: 1%"
@@ -87,25 +48,31 @@
           class="text-center"
           id="search"
           type="text"
-          placeholder="Search for recipes..."
+          placeholder="Search for recipes"
+          style="font-size: 18pt; margin-bottom: 1rem"
         />
         <button
           type="submit"
           class="btn btn-success border"
           id="search"
-          style="cursor: pointer"
+          style="cursor: pointer; margin-bottom: 1rem"
         >
           Search
         </button>
       </form>
     </div>
-    <section
-      class="mt-0"
-      style="font-size: 16px; background-color: antiquewhite"
-    >
+    <section class="mt-0" style="font-size: 16px; background-color: white">
       <div class="container">
         <div class="search-result text-center"></div>
       </div>
     </section>
+
+    <footer>
+      <div class="h5" id="nav-menu">
+        <a id="home" href="#home">Home</a>
+        <a id="recipes" href="#recipes">Recipes</a>
+        <a id="about" href="#about">About Us</a>
+      </div>
+    </footer>
   </body>
 </html>
